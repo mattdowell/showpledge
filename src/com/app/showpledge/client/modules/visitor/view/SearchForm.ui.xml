@@ -1,0 +1,8 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<g:VerticalPanel horizontalAlignment="left">
+		<g:Label text="Search" styleName="page-title" />
+		<g:TextBox ui:field="searchString" visibleLength="35" />
+		<g:Button ui:field="searchBtn" text="Search" styleName="search-button"/>
+	</g:VerticalPanel>
+</ui:UiBinder> 

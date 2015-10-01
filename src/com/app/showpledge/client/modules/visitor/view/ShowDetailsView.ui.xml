@@ -1,0 +1,95 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+	<g:VerticalPanel horizontalAlignment="center">
+		<g:Grid>
+			<g:row>
+				<g:customCell>
+					<g:Label ui:field="showName" />
+				</g:customCell>
+				<g:customCell>
+					<g:Image ui:field="showImage" />
+				</g:customCell>
+			</g:row>
+			<g:row>
+				<g:customCell>
+					<g:Label text="URL" />
+				</g:customCell>
+				<g:customCell>
+					<g:Anchor ui:field="corpUrl" styleName="hyperlink" />
+				</g:customCell>
+			</g:row>
+			<g:row>
+				<g:customCell>
+					<g:Label text="IMDB" />
+				</g:customCell>
+				<g:customCell>
+					<g:Anchor ui:field="imdbUrl" styleName="hyperlink" />
+				</g:customCell>
+			</g:row>
+			<g:row>
+				<g:customCell>
+					<g:Label text="Year" />
+				</g:customCell>
+				<g:customCell>
+					<g:Label ui:field="showYear" />
+				</g:customCell>
+			</g:row>
+			<g:row>
+				<g:customCell>
+					<g:Label text="Producers" />
+				</g:customCell>
+				<g:customCell>
+					<g:Label ui:field="producers" />
+				</g:customCell>
+			</g:row>
+			<g:row>
+				<g:customCell>
+					<g:Label text="Description" />
+				</g:customCell>
+				<g:customCell>
+					<g:Label ui:field="description" />
+				</g:customCell>
+			</g:row>
+			<g:row>
+				<g:customCell>
+					<g:Label text="Pledge Total" />
+				</g:customCell>
+				<g:customCell>
+					<g:Label ui:field="pledgeTotal" />
+				</g:customCell>
+			</g:row>
+			<g:row>
+				<g:customCell>
+					<g:Label text="Link to this page" />
+				</g:customCell>
+				<g:customCell>
+					<g:Anchor ui:field="showUrl" styleName="hyperlink" />
+				</g:customCell>
+			</g:row>
+		</g:Grid>
+
+		<g:HTML styleName="page-title">How much would you pay per episode?</g:HTML>
+		<g:HorizontalPanel>
+			<g:Grid>
+				<g:row>
+					<g:customCell>
+						<g:Label text="Per Episode:" />
+					</g:customCell>
+					<g:customCell>
+						<g:ListBox ui:field="pledgeAmount" />
+					</g:customCell>
+				</g:row>
+				<g:row>
+					<g:customCell>
+						<g:Label text="" />
+					</g:customCell>
+					<g:customCell>
+						<g:Button text="Pledge" ui:field="pledgeBut" />
+					</g:customCell>
+				</g:row>
+			</g:Grid>
+		</g:HorizontalPanel>
+
+	</g:VerticalPanel>
+</ui:UiBinder> 

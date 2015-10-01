@@ -1,0 +1,27 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.important {
+			font-weight: bold;
+		}
+	</ui:style>
+	<g:HTMLPanel>
+		<g:HTML wordWrap="true" />
+		<h1>Welcome to Showpledge.com!</h1>
+		<p><b>Next Steps:</b></p>
+		
+		<p>You will receive an email shortly that will verify your account. Click on the link in the email (to prove you are who we think you are) and you can start.</p>
+		
+		<h2>Pledge</h2>
+		<p>You can pledge a dollar amount to each show. Your pledge is a promise to purchase individual episodes of your shows, if they were available for sale direct from the producers. It is possible for 
+		a producer to create and distribute a show directly to their fans, bypassing the networks, but how do the producers know if anyone will want to buy? Tell them with a pledge.</p>
+		
+		<h2>Nominate</h2>
+		<p>You can nominate a show to start receiving pledges. Your nominations will then be accepted by a publisher if they are valid. As much as I would like (and pay) to see new episodes of Freaks and Geeks,
+		it just ain't happening. The actors are way to old (and famous) and just couldn't pull off the high school look. Be smart about your nominations, and search first to make sure it hasn't been nominated
+		already.</p>
+		
+		<h2>Promote</h2>
+		<p>If a nominated show is accepted, a link will be generated for that show which can be used to promote and direct traffic (and pledges) to that show.</p>
+	</g:HTMLPanel>
+</ui:UiBinder> 

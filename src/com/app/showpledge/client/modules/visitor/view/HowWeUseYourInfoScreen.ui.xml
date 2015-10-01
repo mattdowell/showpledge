@@ -1,0 +1,13 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:g="urn:import:com.google.gwt.user.client.ui" >
+	<g:HTMLPanel styleName="how-we-use-info-popup">
+		<h3>This is how we use your information</h3>
+
+		<p>
+			If the producers of the shows that your have pledged to, decide to sell episodes, we will give them your information.
+		</p>
+		<p>
+			If we have important information to share with you regarding your show, we will email you.
+		</p>
+	</g:HTMLPanel>
+</ui:UiBinder> 

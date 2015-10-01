@@ -1,0 +1,36 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<g:HTMLPanel>
+		<h1>Pledge to purchase your show, per episode direct from the producers!</h1>
+		<p>
+			We have all had a favorite show that was cancelled. Who cancelled it? The TV network executives. The network
+			executives
+			decide a show is too expensive, or too complicated so they cancel a show, or stop purchasing episodes. The
+			TV
+			networks goal is to air inexpensive shows to a large audience. That audience is not you! You like good, in-depth
+			programming, with good acting and writing, so why not purchase (and view) episodes of your show directly from the
+			producers?
+		</p>
+
+		<h2>Save Your Show! How much would you pay per episode?</h2>
+
+		<p>
+			Why should the middle man determine what you can watch? The technology has existed for years now to purchase
+			episodes of
+			your show directly from the producers.
+		</p>
+		<p>
+			Your show was cancelled because the networks want a large cut of the profit to decide what you can watch.
+		</p>
+		<p>
+			This is an inefficient model. Why not pay for episodes directly? Eliminate the middle-man.
+		</p>
+		<h2>How much would you pay per episode for a show?</h2>
+
+		<p>
+			ShowPledge is a petition of sorts. How do the producers of a show know if they can continue to make their show? We
+			show them with your voting dollars. If enough people pledge to purchase episodes of a show, it’s possible for the
+			show to go on.
+		</p>
+	</g:HTMLPanel>
+</ui:UiBinder> 

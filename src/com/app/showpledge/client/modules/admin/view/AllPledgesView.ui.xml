@@ -1,0 +1,13 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.google.gwt.user.cellview.client">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<g:VerticalPanel>
+			<g:Label text="All Pledges" styleName="page-title"/>
+			<p1:CellTable ui:field="cellTable" pageSize="50"/>
+			<p1:SimplePager ui:field="pager" />
+		</g:VerticalPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 
